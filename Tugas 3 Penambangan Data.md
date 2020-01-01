@@ -11,10 +11,16 @@ Regresi linear dapat dibedakan menjadi 2 macam berdasarkan penggunaan variable b
 ###### A. Regresi Linear Sederhana
 
 Analisis regresi linier sederhana adalah hubungan secara linear antara satu variabel independen (X) dengan variabel dependen (Y). Analisis ini untuk mengetahui arah hubungan antara variabel independen dengan variabel dependen apakah positif atau negatif dan untuk memprediksi nilai dari variabel dependen apabila nilai variabel independen mengalami kenaikan atau penurunan.. Data yang digunakan biasanya berskala interval atau rasio. Berikut adalaha persamaan umum regresi linear sederhana:
+
+
 $$
 Y'= a +bx
 $$
+
+
 Untuk mencari nilai a dan b dapat menggunakan formula seperti dibawah ini:
+
+
 $$
 a = \frac{\sum y(\sum x^{2})-\sum x\sum y}{n\sum x^{2}-(\sum x)^{2}}
 $$
@@ -22,6 +28,8 @@ $$
 $$
 b= \frac{n\sum xy - \sum x \sum xy}{n\sum x^{2} - (\sum x)^{2}}
 $$
+
+
 
 Keterangan:
 
@@ -34,11 +42,16 @@ B. Regresi Linear Sederhana
 
 ###### Analisis regresi linear berganda sebenarnya sama dengan analisis regresi linear sederhana, hanya variabel bebasnya lebih dari satu buah. Persamaan umumnya adalah:
 
+
 $$
 Y = a+b_{1}x_{1}+b_{2}x_{2}+b_{3}x_{3}.....+b_{n}x_{n}
 $$
 
+
+
 Untuk mencari nilai a dan b dapat menggunakan formula seperti dibawah ini:
+
+
 $$
 a= \frac {\sum y}{n}-b_{1}(\frac {\sum x_{1}}{n})-b_{2}(\frac {\sum x_{2}}{n})
 $$
